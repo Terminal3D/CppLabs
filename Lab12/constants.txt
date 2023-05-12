@@ -1,0 +1,8 @@
+
+#define INT_MIN (-2147483648)
+#define L 10
+#define MAX_SIZE 1000000
+#define SIZE 1000000
+#define SIZE 128
+#define True 1
+#define size 1000000

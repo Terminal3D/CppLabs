@@ -1,0 +1,22 @@
+
+
+#define CHECK(func) \
+#define CHECK_INDICES(i, j) \
+#define CHECK_OVERFLOW(x) \
+#define DEC(n)                   \
+#define HEX(n)             \
+#define MAX(a, b) ((a) > (b) ? (a) : (b))
+#define MAX(a, b) a > b ? a : b
+#define MAX(a,b) ((a) > (b) ? (a) : (b))
+#define MAX(x, y) ((x) >= (y) ? (x) : (y))
+#define MEM(p) must_be_not_null((p), #p, __FILE__, __LINE__)
+#define MIN(a, b) ((a) < (b) ? (a) : (b))
+#define MIN(a,b) ((a) < (b) ? (a) : (b))
+#define MSGF(msg, ...) \
+#define NELEM(arr) (sizeof(arr) / sizeof(arr[0]))
+#define READ(array) \
+#define STRINGIFY(X) STRINGIFY_HELPER(X)
+#define STRINGIFY_HELPER(X) #X
+#define max(a, b) ((a) > (b) ? (a) : (b))
+#define min(a, b) ((a) < (b) ? (a) : (b))
+#define rand_sign() (rand() < RAND_MAX / 2 ? -1 : +1)
